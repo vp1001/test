@@ -1,3 +1,7 @@
 pandas
 flask
 openpyxl
+requests
+json
+os
+dotenv
