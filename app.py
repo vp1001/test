@@ -1,5 +1,13 @@
 from flask import Flask, render_template, request
 import pandas as pd
+
+import os
+import requests
+from requests.auth import HTTPBasicAuth
+import json
+from dotenv import load_dotenv
+
+load_dotenv()
 #const port = process.env.PORT || 4000;
 
 app = Flask(__name__)
